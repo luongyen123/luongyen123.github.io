@@ -1,10 +1,8 @@
 body{
     font-size: 13px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', serif;
 }
 .masthead {
-    height: 35vh;
-    min-height: 200px;
     background-image: url('../images/bg_profile.png');
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -15,7 +13,6 @@ body{
 
 .fixed-top {
     background-image: url('../images/bg_profile.png');
-    height: 10vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -87,16 +84,12 @@ body{
     max-width: 80%;
     overflow: hidden;
 }
-
 @media (min-width: 576px) {
     .profile-title {
         font-size: 48px;
     }
     body{
         font-size: 14px;
-    }
-    .fixed-top {
-        height: 15vh;
     }
     .masthead {
         height: 40vh;

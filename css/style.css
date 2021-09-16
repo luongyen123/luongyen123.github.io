@@ -34,8 +34,6 @@ body {
 }
 
 .masthead {
-    height: 110vh;
-    min-height: 400px;
     background-image: url('../images/bg_top.png');
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -45,7 +43,6 @@ body {
 
 .fixed-top {
     background-image: url('../images/bg_top.png');
-    height: 10vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -169,8 +166,8 @@ body {
 .bg-access {
     background-image: url('../images/04.png');
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 72%;
+    background-size: 17%;
+    background-position: 66%;
     font-size: 34px;
 }
 .subtitle{
@@ -209,7 +206,6 @@ body {
     .header-title {
         font-size: 64px;
     }
-
     .bg-about {
         background-position: 40%;
         font-size: 36px;
@@ -238,19 +234,15 @@ body {
         background-size: cover;
         background-repeat: no-repeat;
     }
-
-    .fixed-top {
-        height: 15vh;
-    }
-
     .bg-journal {
         font-size: 36px;
         background-size: 7%;
     }
 
     .bg-access {
-        background-position: 56%;
         font-size: 36px;
+        background-size: 6%;
+        background-position: 54%;
     }
     .subtitle-content{
         font-size: 22px;
