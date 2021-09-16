@@ -8,7 +8,7 @@ body{
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    background-position: bottom;
+    background-position: center;
 }
 
 .fixed-top {
@@ -90,9 +90,6 @@ body{
     }
     body{
         font-size: 14px;
-    }
-    .masthead {
-        height: 40vh;
     }
     .subtitle-footer{
         font-size: 24px;
