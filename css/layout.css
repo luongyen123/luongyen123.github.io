@@ -1,0 +1,116 @@
+body{
+    font-size: 13px;
+    font-family: 'Roboto';
+}
+.masthead {
+    height: 35vh;
+    min-height: 200px;
+    background-image: url('../images/bg_profile.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: bottom;
+}
+
+.fixed-top {
+    background-image: url('../images/bg_profile.png');
+    height: 10vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.footer {
+    background-color: #808a98;
+}
+
+.profile-title {
+    font-size: 24px;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    content: ">";
+}
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 25px;
+    right: 35px;
+    height: 10px;
+}
+
+.overlay .logo-mobile {
+    position: absolute;
+    top: 25px;
+    left: 35px;
+}
+.title-footer{
+    font-size: 24px;
+    color: #162D43;
+}
+.subtitle-footer{
+    font-size: 16px;
+    font-family: 'Noto Sans', serif;
+}
+.footer-contact{
+    font-size: 12px;
+    font-family: 'Noto Sans', serif;
+}
+.breadcrumb{
+    font-size: 12px;
+    font-family: 'Swarabi', serif;
+}
+.subtitle{
+    font-size: 16px;
+    font-family: 'Swarabi', serif;
+}
+.content{
+    font-size: 14px;
+    font-family: 'Swarabi', serif;
+}
+.title-content{
+    font-size: 16px;
+    font-family: 'Swarabi', serif;
+}
+.navbar-brand {
+    max-width: 80%;
+    overflow: hidden;
+}
+
+@media (min-width: 576px) {
+    .profile-title {
+        font-size: 48px;
+    }
+    body{
+        font-size: 14px;
+    }
+    .fixed-top {
+        height: 15vh;
+    }
+    .masthead {
+        height: 40vh;
+    }
+    .subtitle-footer{
+        font-size: 24px;
+    }
+    .footer-contact{
+        font-size: 14px;
+    }
+    .title-content{
+        font-size: 18px;
+    }
+    .content{
+        font-size: 13px;
+    }
+}

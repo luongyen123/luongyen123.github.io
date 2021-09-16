@@ -1,0 +1,16 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../font/Roboto_Slab/static/RobotoSlab-Regular.ttf);
+}
+@font-face {
+    font-family: "Noto Sans";
+    src: url(../font/Noto_Sans_JP/NotoSansJP-Regular.otf);
+}
+@font-face {
+    font-family: "Swarabi";
+    src: url(../font/Sawarabi_Mincho/SawarabiMincho-Regular.ttf);
+}
+@font-face {
+    font-family: "Gothic";
+    src: url(../font/Gothic_A1/GothicA1-Regular.ttf);
+}

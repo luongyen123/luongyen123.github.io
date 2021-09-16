@@ -1,0 +1,50 @@
+
+.section1{
+    background-image: url('../images/profile_bg_01.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+}
+.section2{
+    background-image: url('../images/profile_bg_02.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+}
+.section1-content{
+    background-color: rgba(255,255,255,0.7);
+    font-size: 11px;
+}
+.section1-text{
+    text-align: center;
+}
+.order-number{
+    font-size: 36px;
+}
+.section-mind{
+    background-image: url('../images/p_04.png');
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+    -o-background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 28%;
+}
+@media (min-width: 576px) {
+    .profile-title {
+        font-size: 48px;
+    }
+    .section1-text{
+        text-align: left;
+    }
+    .section1-content{
+        font-size: 14px;
+    }
+    .section-mind{
+        background-position: 44%;
+    }
+}
