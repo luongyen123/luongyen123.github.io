@@ -163,6 +163,10 @@ body {
     font-size: 12px;
     font-family: 'Noto Sans', serif;
 }
+.navbar-brand {
+    max-width: 80%;
+    overflow: hidden;
+}
 @keyframes flickerAnimation {
     0%   { opacity:1; }
     50%  { opacity:0; }
