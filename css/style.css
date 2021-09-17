@@ -55,14 +55,6 @@ body {
     font-family: 'Roboto', serif;
 }
 
-.bg-about {
-    background-image: url('../images/01.png');
-    background-repeat: no-repeat;
-    background-size: 16%;
-    background-position: 18%;
-    font-size: 34px;
-}
-
 .section-2 {
     height: 35vh;
     background-image: url('../images/bg_top.png');
@@ -94,14 +86,6 @@ body {
     background-image: url('../images/sv_03.png');
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.section2-number {
-    background-image: url('../images/02.png');
-    background-repeat: no-repeat;
-    background-size: 17%;
-    background-position: 38%;
-    font-size: 34px;
 }
 
 .section3 {
@@ -139,14 +123,6 @@ body {
     background-color: #808a98;
 }
 
-.bg-journal {
-    background-image: url('../images/03.png');
-    background-repeat: no-repeat;
-    background-size: 22%;
-    background-position: 49%;
-    font-size: 34px;
-}
-
 .section5 {
     height: 80vh;
     background-image: url('../images/bg_mid_04.png');
@@ -155,21 +131,6 @@ body {
     background-position: center;
 }
 
-.bg-service {
-    background-image: url('../images/bg-service.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    font-size: 14px;
-}
-
-.bg-access {
-    background-image: url('../images/04.png');
-    background-repeat: no-repeat;
-    background-size: 17%;
-    background-position: 66%;
-    font-size: 34px;
-}
 .subtitle{
     font-family: 'Noto Sans', serif;
     font-size: 16px;
@@ -233,11 +194,6 @@ body {
     .header-title {
         font-size: 64px;
     }
-    .bg-about {
-        background-position: 38.75%;
-        font-size: 36px;
-        background-size: 6.55%;
-    }
 
     .section-2 {
         height: 41vh;
@@ -245,13 +201,6 @@ body {
         opacity: 1;
         background-position: center;
     }
-
-    .section2-number {
-        font-size: 36px;
-        background-size: 10%;
-        background-position: 14%;
-    }
-
     .section4-content {
         background-color: #686868;
     }
@@ -260,16 +209,6 @@ body {
         background-image: url('../images/bg-section2.png');
         background-size: cover;
         background-repeat: no-repeat;
-    }
-    .bg-journal {
-        font-size: 36px;
-        background-size: 7%;
-    }
-
-    .bg-access {
-        font-size: 36px;
-        background-size: 5%;
-        background-position: 57.25%;
     }
     .subtitle-content{
         font-size: 22px;
