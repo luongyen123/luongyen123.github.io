@@ -202,14 +202,41 @@ body {
     font-size: 12px;
     font-family: 'Noto Sans', serif;
 }
+@keyframes flickerAnimation {
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+}
+@-o-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+}
+#scroll{
+    display: none;
+    -webkit-animation: flickerAnimation .5s infinite;
+    -moz-animation: flickerAnimation .5s infinite;
+    -o-animation: flickerAnimation .5s infinite;
+    animation: flickerAnimation .5s infinite;
+}
 @media (min-width: 768px) {
     .header-title {
         font-size: 64px;
     }
     .bg-about {
-        background-position: 40%;
+        background-position: 38.75%;
         font-size: 36px;
-        background-size: 6%;
+        background-size: 6.55%;
     }
 
     .section-2 {
@@ -221,8 +248,8 @@ body {
 
     .section2-number {
         font-size: 36px;
-        background-size: 7%;
-        background-position: 12%;
+        background-size: 10%;
+        background-position: 14%;
     }
 
     .section4-content {
@@ -242,7 +269,7 @@ body {
     .bg-access {
         font-size: 36px;
         background-size: 5%;
-        background-position: 54%;
+        background-position: 57.25%;
     }
     .subtitle-content{
         font-size: 22px;
@@ -255,5 +282,8 @@ body {
     }
     .footer-contact{
         font-size: 14px;
+    }
+    .masthead {
+        background-image: url('../images/bg_top_des.png');
     }
 }

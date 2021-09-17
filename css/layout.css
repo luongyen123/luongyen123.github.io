@@ -73,7 +73,7 @@ body{
     font-family: 'Swarabi', serif;
 }
 .content{
-    font-size: 14px;
+    font-size: 13px;
     font-family: 'Swarabi', serif;
 }
 .title-content{
@@ -101,6 +101,13 @@ body{
         font-size: 18px;
     }
     .content{
-        font-size: 13px;
+        font-size: 14px;
+    }
+    .masthead {
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-position: center;
     }
 }
