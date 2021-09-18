@@ -15,7 +15,8 @@ body{
     background-image: url('../images/bg_profile.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top;
+    background-position: top center;
+    background-attachment: fixed;
 }
 
 .footer {

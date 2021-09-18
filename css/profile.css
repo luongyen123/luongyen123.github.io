@@ -48,3 +48,7 @@
         background-position: 44%;
     }
 }
+
+.border-black {
+    border-color: #000 !important;
+}

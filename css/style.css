@@ -39,12 +39,15 @@ body {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    background-position: top center;
 }
 
 .fixed-top {
     background-image: url('../images/bg_top.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
 }
 #navbarResponsive{
     font-size: 14px;
@@ -114,7 +117,7 @@ body {
 }
 
 .contact-us {
-    background-color: #686868;
+    background-color: #828282;
     border: solid 2px #ccc;
     color: white;
 }
@@ -145,7 +148,7 @@ body {
 }
 .title-image{
     font-family: 'Swarabi', serif;
-    font-size: 24px;
+    font-size: 18px;
 }
 .content-image{
     font-family: 'Gothic', serif;
@@ -194,11 +197,20 @@ body {
     -o-animation: flickerAnimation .5s infinite;
     animation: flickerAnimation .5s infinite;
 }
+.bg-service {
+    background-image: url('../images/bg-service.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 14px;
+}
 @media (min-width: 768px) {
+    .contact-us {
+        background-color: #686868;
+    }
     .header-title {
         font-size: 64px;
     }
-
     .section-2 {
         height: 41vh;
         background-image: url('../images/section_2.png');
@@ -228,5 +240,8 @@ body {
     }
     .masthead {
         background-image: url('../images/bg_top_des.png');
+    }
+    .title-image{
+        font-size: 24px;
     }
 }
