@@ -4,8 +4,12 @@ body {
     font-family: 'Roboto', serif;
 }
 
+h2, h3, p, span {
+    letter-spacing: 0.04em;
+}
+
 .overlay {
-    height: 0%;
+    height: 0;
     width: 100%;
     position: fixed;
     z-index: 1;
@@ -34,6 +38,7 @@ body {
 }
 
 .masthead {
+    height: 640px;
     background-image: url('../images/bg_top.png');
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -49,10 +54,12 @@ body {
     background-position: top center;
     background-attachment: fixed;
 }
-#navbarResponsive{
+
+#navbarResponsive {
     font-size: 14px;
     font-family: 'Noto Sans', serif;
 }
+
 .header-title {
     font-size: 32px;
     font-family: 'Roboto', serif;
@@ -77,18 +84,21 @@ body {
     background-image: url('../images/sv_01.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .section3-thumb {
     background-image: url('../images/sv_02.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .section4-thumb {
     background-image: url('../images/sv_03.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .section3 {
@@ -134,54 +144,55 @@ body {
     background-position: center;
 }
 
-.subtitle{
+.subtitle {
     font-family: 'Noto Sans', serif;
     font-size: 16px;
 }
-.subtitle-content{
+
+.subtitle-content {
     font-family: 'Swarabi', serif;
     font-size: 20px;
 }
-.content-section{
+
+.content-section {
     font-family: 'Swarabi', serif;
     font-size: 13px;
 }
-.content-access{
-    font-family: 'Swarabi', serif;
-    font-size: 14px;
-}
-.title-image{
+
+.title-image {
     font-family: 'Swarabi', serif;
     font-size: 18px;
 }
-.content-image{
+
+.content-image {
     font-family: 'Gothic', serif;
     font-size: 12px;
 }
-.title-footer{
+
+.title-footer {
     font-size: 24px;
     color: #162D43;
 }
-.subtitle-footer{
+
+.subtitle-footer {
     font-size: 18px;
     font-family: 'Noto Sans', serif;
 }
-.footer-contact{
+
+.footer-contact {
     font-size: 12px;
     font-family: 'Noto Sans', serif;
 }
+
 .navbar-brand {
     max-width: 80%;
     overflow: hidden;
 }
-@keyframes flickerAnimation {
-    0%   { opacity:1; }
-    50%  { opacity:0; }
-    100% { opacity:1; }
-}
-#scroll{
+
+#scroll {
     display: none;
 }
+
 .bg-service {
     background-image: url('../images/bg-service.png');
     background-repeat: no-repeat;
@@ -189,19 +200,37 @@ body {
     background-position: center;
     font-size: 14px;
 }
+
+.sv-mobile {
+    width: 150px;
+    height: 150px;
+}
+
+@media (width: 1152px) {
+
+}
+
 @media (min-width: 768px) {
+    #about {
+        height: 700px;
+        background-color: #FFFBFB;
+    }
+
     .contact-us {
         background-color: #686868;
     }
+
     .header-title {
         font-size: 64px;
     }
+
     .section-2 {
         height: 41vh;
         background-image: url('../images/section_2.png');
         opacity: 1;
         background-position: center;
     }
+
     .section4-content {
         background-color: #686868;
     }
@@ -211,22 +240,60 @@ body {
         background-size: cover;
         background-repeat: no-repeat;
     }
-    .subtitle-content{
+
+    .subtitle-content {
         font-size: 22px;
     }
-    .content-section{
+
+    .content-section {
         font-size: 14px;
     }
-    .subtitle-footer{
+
+    .subtitle-footer {
         font-size: 24px;
     }
-    .footer-contact{
+
+    .footer-contact {
         font-size: 14px;
     }
+
     .masthead {
-        background-image: url('../images/bg_top_des.png');
+        height: 700px;
+        background-image: url('../images/bg_top_des.jpg');
     }
-    .title-image{
-        font-size: 24px;
+
+    .title-image {
+        font-size: 18px;
+    }
+
+    .sv-mobile {
+        width: 160px;
+        height: 160px;
+    }
+
+    .content-access {
+        font-family: 'Swarabi', serif;
+        font-size: 14px;
+    }
+
+    .section4-content {
+        height: 298px;
+    }
+
+    #service {
+        height: 782px;
+    }
+
+    #jour {
+        height: 700px;
+        background-color: #fcfbf4;
+    }
+
+    #access {
+        height: 700px;
+    }
+
+    footer {
+        height: 453px;
     }
 }
