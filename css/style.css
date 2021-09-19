@@ -196,7 +196,6 @@ h2, h3, p, span {
 .bg-service {
     background-image: url('../images/bg-service.png');
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: center;
     font-size: 14px;
 }
