@@ -85,6 +85,11 @@ body{
     max-width: 80%;
     overflow: hidden;
 }
+
+#ctx {
+    padding-left: 5em!important;
+    padding-right: 5em!important;
+}
 @media (min-width: 576px) {
     .profile-title {
         font-size: 48px;
