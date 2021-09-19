@@ -97,7 +97,7 @@
             <img src="images/scroll.png">
         </div>
     </header>
-    <div class="container p-5 mb-5 bg-white fade-in" id="about">
+    <div class="container p-5 mb-5 bg-white faded" id="about">
         <div class="row mb-5 pb-5">
             <div class="col-md-12 text-center">
                 <img src="images/about_number.png" class="img-fluid">
@@ -124,7 +124,7 @@
         </div>
     </div>
     <div class="parallax-bg section-2"></div>
-    <div class="section-2-1 fade-in" id="service">
+    <div class="section-2-1 faded" id="service">
         <div class="container p-5">
             <img src="images/service_number.png" class="img-fluid">
             <div class="row mt-5 content-section">
@@ -167,7 +167,7 @@
         </div>
     </div>
     <div class="parallax-bg section3"></div>
-    <div class="container bg-white fade-in" id="jour">
+    <div class="container bg-white faded" id="jour">
         <div class="row">
             <div class="col-md-12 mt-4 text-center">
                 <img src="images/jour_number.png" class="img-fluid"><br>
@@ -208,7 +208,7 @@
         </div>
     </div>
     <div class="parallax-bg section4"></div>
-    <div class="section4-title text-center text-white py-5 fade-in" id="access">
+    <div class="section4-title text-center text-white py-5 faded" id="access">
         <img src="images/access_number.png" class="img-fluid">
         <div class="container-fluid section4-content mt-5 mb-0 mb-md-5">
             <div class="row">
@@ -315,6 +315,18 @@
                 document.getElementById("nav-top").classList.remove("fixed-top");
                 document.getElementById("scroll").style.display = "none";
             }
+        });
+    });
+
+    $(document).ready(function() {
+        $(window).scroll( function(){
+            $('.faded').each( function(i){
+                var bottom_of_element = $(this).offset().top;
+                var bottom_of_window = $(window).scrollTop() + $(window).height();
+                if(bottom_of_window > bottom_of_element ){
+                    $(this).addClass('fade-in');
+                }
+            }); 
         });
     });
 </script>
