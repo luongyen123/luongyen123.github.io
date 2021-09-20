@@ -203,11 +203,101 @@ h2, h3, p, span {
     width: 150px;
     height: 150px;
 }
-@media (width: 1152px) {
+@media (min-width: 768px) and (max-width: 1024px) {
+    #about {
+        height: 700px;
+        background-color: #FFFBFB;
+    }
 
+    .contact-us {
+        background-color: #686868;
+    }
+
+    .header-title {
+        font-size: 64px;
+    }
+
+    .section-2 {
+        height: 41vh;
+        background-image: url('../images/bg_top.png');
+        opacity: 0.6;
+        background-position: center;
+    }
+
+    .section4-content {
+        background-color: #686868;
+    }
+
+    .section-2-1 {
+        background-image: url('../images/bg-section2.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .subtitle-content {
+        font-size: 22px;
+    }
+
+    .content-section {
+        font-size: 14px;
+    }
+
+    .subtitle-footer {
+        font-size: 24px;
+    }
+
+    .footer-contact {
+        font-size: 14px;
+    }
+
+    .masthead {
+        height: 700px;
+        background-image: url('../images/bg_top_des.jpg');
+        background-size: cover;
+        background-position: bottom center;
+    }
+
+    .title-image {
+        font-size: 18px;
+    }
+
+    .sv-mobile {
+        width: 160px;
+        height: 160px;
+    }
+
+    .content-access {
+        font-family: 'Swarabi', serif;
+        font-size: 14px;
+    }
+
+    .section4-content {
+        height: 298px;
+    }
+
+    #service {
+        height: 782px;
+    }
+
+    #jour {
+        height: 700px;
+        background-color: #fcfbf4;
+    }
+
+    #access {
+        height: 700px;
+    }
+
+    footer {
+        height: 453px;
+    }
+    .section2-thumb {
+        max-width: 100%;
+        height: auto;
+    }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1025px) {
     #about {
         height: 700px;
         background-color: #FFFBFB;
