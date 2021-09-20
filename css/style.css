@@ -258,6 +258,8 @@ h2, h3, p, span {
     .masthead {
         height: 700px;
         background-image: url('../images/bg_top_des.jpg');
+        background-size: cover;
+        background-position: bottom center;
     }
 
     .title-image {
