@@ -58,7 +58,7 @@ body{
     color: #162D43;
 }
 .subtitle-footer{
-    font-size: 16px;
+    font-size: 18px;
     font-family: 'Noto Sans', serif;
 }
 .footer-contact{
@@ -76,6 +76,7 @@ body{
 .content{
     font-size: 13px;
     font-family: 'Swarabi', serif;
+    color: #3D5164;
 }
 .title-content{
     font-size: 16px;
