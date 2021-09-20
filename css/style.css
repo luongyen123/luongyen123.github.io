@@ -224,8 +224,8 @@ h2, h3, p, span {
 
     .section-2 {
         height: 41vh;
-        background-image: url('../images/section_2.png');
-        opacity: 1;
+        background-image: url('../images/bg_top.png');
+        opacity: 0.6;
         background-position: center;
     }
 
