@@ -83,21 +83,21 @@ h2, h3, p, span {
 .section2-thumb {
     background-image: url('../images/sv_01.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100% 100%;
     background-position: center;
 }
 
 .section3-thumb {
     background-image: url('../images/sv_02.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100% 100%;
     background-position: center;
 }
 
 .section4-thumb {
     background-image: url('../images/sv_03.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100% 100%;
     background-position: center;
 }
 
