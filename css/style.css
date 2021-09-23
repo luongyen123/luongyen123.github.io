@@ -203,6 +203,7 @@ h2, h3, p, span {
     width: 150px;
     height: 150px;
 }
+
 @media (min-width: 768px) and (max-width: 1024px) {
     #about {
         height: 700px;
