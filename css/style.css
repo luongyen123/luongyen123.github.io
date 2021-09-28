@@ -7,7 +7,13 @@ body {
 h2, h3, p, span {
     letter-spacing: 0.04em;
 }
-
+.subtitle-footer a:hover{
+    font-size: 20px;
+}
+a:hover img {
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
 .overlay {
     height: 0;
     width: 100%;
@@ -203,7 +209,12 @@ h2, h3, p, span {
     width: 150px;
     height: 150px;
 }
-
+#about {
+    color: #162D43;
+}
+#jour {
+    color: #162D43;
+}
 @media (min-width: 768px) and (max-width: 1024px) {
     #about {
         height: 700px;
@@ -253,7 +264,7 @@ h2, h3, p, span {
 
     .masthead {
         height: 700px;
-        background-image: url('../images/bg_top_des.jpg');
+        background-image: url('../images/bg_top.png');
         background-size: cover;
         background-position: bottom center;
     }
@@ -295,6 +306,10 @@ h2, h3, p, span {
     .section2-thumb {
         max-width: 100%;
         height: auto;
+    }
+    .pointer-map{
+        margin-top: -343px;
+        margin-right: 6.5%;
     }
 }
 
@@ -347,7 +362,7 @@ h2, h3, p, span {
 
     .masthead {
         height: 700px;
-        background-image: url('../images/bg_top_des.jpg');
+        background-image: url('../images/bg_top.png');
         background-size: cover;
         background-position: bottom center;
     }
@@ -389,5 +404,9 @@ h2, h3, p, span {
     .section2-thumb {
         width: 260px;
         height: 330px;
+    }
+    .pointer-map{
+        margin-top: -343px;
+        margin-right: 14%;
     }
 }
