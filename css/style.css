@@ -45,10 +45,13 @@ a:hover img {
 
 .masthead-l {
     background-image: url('../images/bg_profile_2x.png');
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    background-size: contain;
-    -o-background-size: contain;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: unset;
 }
 
 .masthead {
@@ -226,11 +229,13 @@ a:hover img {
     text-decoration: none !important;
 }
 @media (min-width: 768px) and (max-width: 1024px) {
+    .masthead-l {
+        background: url("../images/bg_profile.png");
+    }
     #about {
         height: 700px;
         background-color: #FFFBFB;
     }
-
     .contact-us {
         background-color: #686868;
     }
@@ -238,7 +243,6 @@ a:hover img {
     .header-title {
         font-size: 64px;
     }
-
     .section-2 {
         height: 41vh;
         background-image: url('../images/bg_top.png');
@@ -330,7 +334,6 @@ a:hover img {
         height: 700px;
         background-color: #FFFBFB;
     }
-
     .contact-us {
         background-color: #686868;
     }
@@ -420,5 +423,13 @@ a:hover img {
     .pointer-map{
         margin-top: -343px;
         margin-right: 14%;
+    }
+    .masthead-l {
+        background-image: url('../images/bg_profile_2x.png');
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+        background-position: bottom;
     }
 }
