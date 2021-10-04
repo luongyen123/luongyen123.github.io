@@ -42,6 +42,10 @@ img.sevice {
     width: 36px;
     height: 35px;
 }
+.ig_mb {
+    width: 22px;
+    height: 22px;
+}
 .logo_footer {
     width: 299px;
     height: 137px;
@@ -49,6 +53,10 @@ img.sevice {
 .pointer {
     width: 57px;
     height: 56px;
+}
+.pointer_mb {
+    width: 57px;
+    height: 32px;
 }
 .architecture, .inspection, .tiny_house {
     width: 203px;
@@ -64,5 +72,17 @@ img.sevice {
 }
 .footer_profile {
     width: 94px;
+    height: 26px;
+}
+.close_over {
+    width: 28px;
+    height: 20px;
+}
+.logo_mobile {
+    width: 39px;
+    height: 39px;
+}
+.phone {
+    width: 26px;
     height: 26px;
 }
