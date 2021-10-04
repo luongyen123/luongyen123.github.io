@@ -43,14 +43,21 @@ a:hover img {
     background-attachment: fixed;
 }
 
+.masthead-l {
+    background-image: url('../images/bg_profile_2x.png');
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+    -o-background-size: contain;
+}
+
 .masthead {
-    height: 640px;
     background-image: url('../images/bg_top.png');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    background-position: top center;
+    background-position: center;
 }
 
 .fixed-top {
@@ -215,6 +222,9 @@ a:hover img {
 #jour {
     color: #162D43;
 }
+.subtitle-footer a:hover {
+    text-decoration: none !important;
+}
 @media (min-width: 768px) and (max-width: 1024px) {
     #about {
         height: 700px;
@@ -257,7 +267,9 @@ a:hover img {
     .subtitle-footer {
         font-size: 24px;
     }
-
+    .subtitle-footer a:hover {
+        text-decoration: none !important;
+    }
     .footer-contact {
         font-size: 14px;
     }
@@ -361,7 +373,7 @@ a:hover img {
     }
 
     .masthead {
-        height: 700px;
+        height: 730px;
         background-image: url('../images/bg_top.png');
         background-size: cover;
         background-position: bottom center;

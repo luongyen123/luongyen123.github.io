@@ -39,7 +39,13 @@
 .nowrap {
     white-space: nowrap;
 }
+.subtitle-footer a:hover {
+    text-decoration: none !important;
+}
 @media (min-width: 576px) {
+    .subtitle-footer a:hover {
+        text-decoration: none !important;
+    }
     .profile-title {
         font-size: 48px;
     }
